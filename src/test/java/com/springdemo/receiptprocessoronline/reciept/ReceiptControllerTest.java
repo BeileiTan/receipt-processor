@@ -94,7 +94,7 @@ class ReceiptControllerTest {
     }
 
     @Test
-    void testAddArtifactSuccess() throws Exception{
+    void testAddReceiptSuccess() throws Exception{
         ReceiptItem item1 = new ReceiptItem();
         item1.setShortDescription("Item one");
         item1.setPrice("18.8");
