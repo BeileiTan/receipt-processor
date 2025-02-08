@@ -211,3 +211,14 @@ curl http://localhost:8080/receipts/adb6b560-42bc-9d16-df48f30e89b2/points
     "data": null
 }
 ```
+
+## Database
+This project uses H2 as an in-memory database during development. 
+The H2 console is available at http://localhost:8080/h2-console. 
+l choose H2 because it is lightweight, fast, and easy to configure, making it ideal for development and testing environments where data persistence is not required. 
+For more information, see below:
+![Schreenshot of H2-database Connection Information](images/h2-database.png)
+One receipt with id: adb6b560-0eef-42bc-9d16-df48f30e89b2 has been pre-stored in database for the test purpose.
+
+## Testing
+Unit tests are used to ensure the correctness of the application and are integrated into a continuous integration pipeline, which are triggered on every pull request before merging.
