@@ -47,7 +47,6 @@ For more information, visit the [SwaggerHub]https://app.swaggerhub.com/apis/nort
 │   │   │   ├── static/
 │   │   │   ├── templates/
 │   │   │   ├── application.yml
-│   │   │   ├── data.sql  # (Optional for preloading test data)
 │   ├── test
 │   │   ├── java
 │   │   │   └── com
