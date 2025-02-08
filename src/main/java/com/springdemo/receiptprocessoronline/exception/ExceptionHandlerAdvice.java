@@ -32,6 +32,6 @@ public class ExceptionHandlerAdvice {
             String val = error.getDefaultMessage();
             map.put(key, val);
         });
-        return new Result(false, StatusCode.INVALID_ARGUMENT, "Provide arguments here", map);
+        return new Result(false, StatusCode.INVALID_ARGUMENT, "Error: Missing required arguments.", map);
     }
 }
