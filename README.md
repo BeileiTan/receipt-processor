@@ -207,7 +207,7 @@ curl http://localhost:8080/receipts/8888888888888/points
 {
     "flag": false,
     "code": 404,
-    "message": "No receipt found for that id 0eef-42bc-9d16-df48f30e89b2 :(",
+    "message": "No receipt found for that id 8888888888888 :(",
     "data": null
 }
 ```
